@@ -18,10 +18,10 @@ export const DatabaseSetup = () => (
       <div className="mt-4 bg-yellow-50 p-4 rounded-lg border border-yellow-200">
         <p className="font-bold text-yellow-800 mb-1 flex items-center gap-2"><Icons.Warning/> สิ่งแรกที่ต้องทำ: จด Spreadsheet ID</p>
         <p className="text-sm text-yellow-700 mb-2">ดูที่ URL ด้านบนของ Browser ตรงส่วนที่เป็นรหัสยาวๆ มั่วๆ</p>
-        <code className="bg-white p-3 rounded border border-yellow-300 block break-all text-xs md:text-sm font-mono text-slate-700 shadow-inner">
+        <code className="bg-white p-3 rounded border border-yellow-300 block break-all text-sm md:text-sm font-mono text-slate-700 shadow-inner">
           docs.google.com/spreadsheets/d/<span className="bg-yellow-200 font-bold text-slate-900 px-1 rounded mx-1">1QyruEowKFva5n7JNiizQ...</span>/edit
         </code>
-        <p className="text-xs text-slate-500 mt-2">*ก๊อปปี้เก็บไว้ใน Notepad เลยครับ ต้องใช้แน่นอน</p>
+        <p className="text-sm text-slate-500 mt-2">*ก๊อปปี้เก็บไว้ใน Notepad เลยครับ ต้องใช้แน่นอน</p>
       </div>
     </Step>
 
@@ -58,8 +58,8 @@ export const DatabaseSetup = () => (
       <p>กดปุ่ม + ด้านล่างเพื่อสร้าง Tab ใหม่ ตั้งชื่อว่า <code>AI_Insight</code></p>
       <p>สร้างหัวตารางในแถวที่ 1 ดังนี้:</p>
       <div className="flex gap-4 mt-2">
-        <div className="bg-white border p-2 rounded w-24 text-center"><span className="block text-xs text-slate-400">A1</span>Time</div>
-        <div className="bg-white border p-2 rounded w-24 text-center"><span className="block text-xs text-slate-400">B1</span>Report</div>
+        <div className="bg-white border p-2 rounded w-24 text-center"><span className="block text-sm text-slate-400">A1</span>Time</div>
+        <div className="bg-white border p-2 rounded w-24 text-center"><span className="block text-sm text-slate-400">B1</span>Report</div>
       </div>
       <p className="text-sm text-slate-500 mt-2">หน้านี้จะใช้เก็บ Text รายงานที่ Gemini AI เขียนมาให้</p>
     </Step>

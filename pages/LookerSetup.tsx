@@ -45,7 +45,7 @@ export const LookerSetup = () => (
         <div className="bg-white p-4 border border-slate-200 rounded-lg shadow-sm">
            <h4 className="font-bold text-slate-800 mb-2">📊 กราฟแท่ง (Bar Chart)</h4>
            <p className="text-sm text-slate-600">เหมาะสำหรับเปรียบเทียบข้อมูล</p>
-           <ul className="text-xs text-slate-500 mt-2 list-disc ml-4">
+           <ul className="text-sm text-slate-500 mt-2 list-disc ml-4">
              <li><strong>มิติข้อมูล (Dimension):</strong> อำเภอ</li>
              <li><strong>เมตริก (Metric):</strong> พื้นที่เพาะปลูก (SUM)</li>
            </ul>
@@ -53,14 +53,14 @@ export const LookerSetup = () => (
         <div className="bg-white p-4 border border-slate-200 rounded-lg shadow-sm">
            <h4 className="font-bold text-slate-800 mb-2">🔢 แผ่นงานสรุป (Scorecard)</h4>
            <p className="text-sm text-slate-600">แสดงตัวเลขรวมใหญ่ๆ ด้านบน</p>
-           <ul className="text-xs text-slate-500 mt-2 list-disc ml-4">
+           <ul className="text-sm text-slate-500 mt-2 list-disc ml-4">
              <li><strong>เมตริก (Metric):</strong> ปริมาณผลผลิต (SUM)</li>
            </ul>
         </div>
         <div className="bg-white p-4 border border-slate-200 rounded-lg shadow-sm">
            <h4 className="font-bold text-slate-800 mb-2">🥧 กราฟวงกลม (Pie Chart)</h4>
            <p className="text-sm text-slate-600">สัดส่วนพันธุ์พืช</p>
-           <ul className="text-xs text-slate-500 mt-2 list-disc ml-4">
+           <ul className="text-sm text-slate-500 mt-2 list-disc ml-4">
              <li><strong>มิติข้อมูล (Dimension):</strong> พันธุ์พืช</li>
              <li><strong>เมตริก (Metric):</strong> พื้นที่เพาะปลูก (SUM)</li>
            </ul>
@@ -68,7 +68,7 @@ export const LookerSetup = () => (
         <div className="bg-white p-4 border border-slate-200 rounded-lg shadow-sm">
            <h4 className="font-bold text-slate-800 mb-2">🌍 แผนที่ (Geo Chart)</h4>
            <p className="text-sm text-slate-600">กระจายตัวตามพื้นที่</p>
-           <ul className="text-xs text-slate-500 mt-2 list-disc ml-4">
+           <ul className="text-sm text-slate-500 mt-2 list-disc ml-4">
              <li><strong>มิติข้อมูล (Dimension):</strong> อำเภอ</li>
              <li><strong>สี (Color Metric):</strong> ความหนาแน่นพื้นที่ปลูก</li>
            </ul>
@@ -84,7 +84,7 @@ export const LookerSetup = () => (
         <li>ส่งลิงก์นี้เข้าไลน์กลุ่มผู้บริหารได้เลย! (เปิดดูได้ทั้งมือถือและคอมพิวเตอร์)</li>
       </ul>
       <Note type="success" title="Tip: การอัปเดตข้อมูล">
-         เนื่องจากเราเชื่อมต่อกับ Google Sheet โดยตรง เมื่อเกษตรกรกรอกข้อมูลผ่าน Web App -> ลง Sheet -> <strong>หน้า Dashboard จะอัปเดตข้อมูลตามอัตโนมัติ</strong> (อาจดีเลย์ประมาณ 15 นาที หรือกดปุ่ม Refresh ข้อมูลได้เลย)
+         เนื่องจากเราเชื่อมต่อกับ Google Sheet โดยตรง เมื่อเกษตรกรกรอกข้อมูลผ่าน Web App {'\u2192'} ลง Sheet {'\u2192'} <strong>หน้า Dashboard จะอัปเดตข้อมูลตามอัตโนมัติ</strong> (อาจดีเลย์ประมาณ 15 นาที หรือกดปุ่ม Refresh ข้อมูลได้เลย)
       </Note>
     </Step>
   </div>

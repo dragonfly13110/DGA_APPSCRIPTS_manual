@@ -35,16 +35,16 @@ export const Troubleshooting = () => (
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                  <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ฉันทำ Google Apps Script Web App แล้วเวลาเข้าลิงก์มันขึ้น Error ว่า 'Script function not found: doGet' ฉันต้องเช็คตรงไหนบ้าง?"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -63,21 +63,21 @@ export const Troubleshooting = () => (
                <ul className="list-disc ml-5 space-y-1 mb-3">
                  <li>เช็คไฟล์ <code>Code.gs</code> ตรงตัวแปร <code>districtsData</code> ดูว่าลืมใส่ลูกน้ำ <code>,</code> ท้ายบรรทัดหรือเปล่า</li>
                  <li>เช็คไฟล์ <code>Index.html</code> ตรงตัวแปร <code>CROP_VARIETIES</code> ว่าใส่วงเล็บครบไหม <code>["..."]</code></li>
-                 <li>ลองคลิกขวาที่หน้าเว็บ -> Inspect (ตรวจสอบ) -> Console ดูว่ามีตัวหนังสือสีแดงแจ้ง Error อะไรไหม</li>
+                 <li>ลองคลิกขวาที่หน้าเว็บ {'\u2192'} Inspect (ตรวจสอบ) {'\u2192'} Console ดูว่ามีตัวหนังสือสีแดงแจ้ง Error อะไรไหม</li>
                </ul>
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ช่วยเช็ค Syntax ของตัวแปร JSON ใน Javascript ชุดนี้ให้หน่อยว่าฉันลืมใส่ลูกน้ำ (Comma) หรือวงเล็บตรงไหนไหม? [แล้วก๊อปปี้โค้ดส่วน districtsData ไปวางต่อ]"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -96,21 +96,21 @@ export const Troubleshooting = () => (
                <ul className="list-disc ml-5 space-y-1 mb-3">
                  <li>ไปที่หน้า Editor</li>
                  <li>เลือกฟังก์ชันใดก็ได้ (เช่น <code>getInitialData</code>) จาก Dropdown ด้านบน แล้วกดปุ่ม <strong>Run</strong> (▶)</li>
-                 <li>ระบบจะเด้งหน้าต่างขอสิทธิ์ขึ้นมาใหม่ ให้กด Review permissions -> Allow ตามขั้นตอนเดิม</li>
+                 <li>ระบบจะเด้งหน้าต่างขอสิทธิ์ขึ้นมาใหม่ ให้กด Review permissions {'\u2192'} Allow ตามขั้นตอนเดิม</li>
                </ul>
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ฉันรัน Google Apps Script แล้วเจอ error ว่า 'Exception: You do not have permission to call UrlFetchApp.fetch' ฉันต้องไปกดอนุญาตสิทธิ์ตรงไหน?"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -142,16 +142,16 @@ export const Troubleshooting = () => (
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ใน Google Apps Script คำสั่ง getSheetByName() มันหาชื่อ Sheet ไม่เจอ ทั้งๆ ที่ฉันสร้างแล้ว สาเหตุที่เป็นไปได้มีอะไรบ้าง? (เช่น เรื่องเว้นวรรค หรือตัวพิมพ์เล็กใหญ่)"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -175,16 +175,16 @@ export const Troubleshooting = () => (
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ช่วยเปรียบเทียบ Object นี้กับหัวตาราง Google Sheet ให้หน่อยว่าฉันพิมพ์ตรงไหนผิด [ก๊อปปี้โค้ดส่วน COLUMN_NAMES ไปวาง] และนี่คือชื่อหัวตารางใน Sheet ของฉัน [พิมพ์ชื่อหัวตาราง]"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -207,16 +207,16 @@ export const Troubleshooting = () => (
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ฉันมีโค้ด Google Apps Script ที่เช็คเงื่อนไขวันที่ if (dayOfMonth !== 15). ถ้าฉันอยากให้มันบันทึกได้ทุกวัน ฉันต้องแก้โค้ดนี้ยังไง?"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>
@@ -248,16 +248,16 @@ export const Troubleshooting = () => (
 
                {/* Ask AI Section - Redesigned */}
                <div className="mt-4 bg-slate-50 rounded-lg border border-slate-200 p-4 relative">
-                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-xs font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
+                 <div className="absolute top-0 right-0 bg-indigo-100 text-indigo-700 text-sm font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg">
                     Prompt สำหรับถาม AI
                  </div>
                  <div className="flex gap-3">
                     <div className="text-3xl">🤖</div>
                     <div className="flex-1">
-                      <p className="text-xs text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
+                      <p className="text-sm text-slate-500 font-bold uppercase mb-1">ก๊อปปี้ข้อความนี้ไปถาม:</p>
                       <div className="p-3 bg-white border border-indigo-100 rounded-lg shadow-sm font-medium text-slate-800 text-base leading-relaxed font-mono select-all hover:border-indigo-300 transition-colors cursor-text group">
                          "ฉันใช้ Google Gemini API ใน Apps Script แล้วเจอ Error [ใส่ข้อความ Error ที่เจอ] มันแปลว่าอะไร และแก้ยังไงครับ?"
-                         <span className="block mt-2 text-xs text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
+                         <span className="block mt-2 text-sm text-indigo-400 font-sans font-normal opacity-0 group-hover:opacity-100 transition-opacity text-right">คลิกเพื่อเลือกข้อความ</span>
                       </div>
                     </div>
                  </div>

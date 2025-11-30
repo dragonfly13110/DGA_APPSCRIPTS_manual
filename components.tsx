@@ -105,10 +105,10 @@ export const CodeBlock = ({ code, language = 'javascript', label }: CodeBlockPro
   return (
     <div className="rounded-lg overflow-hidden border border-slate-200 bg-slate-900 shadow-md my-4">
       <div className="flex justify-between items-center px-4 py-2 bg-slate-800 border-b border-slate-700">
-        <span className="text-xs font-mono text-slate-400 font-bold uppercase">{label || language}</span>
+        <span className="text-sm font-mono text-slate-400 font-bold uppercase">{label || language}</span>
         <button 
           onClick={handleCopy}
-          className="text-slate-400 hover:text-white transition-colors flex items-center gap-1 text-xs uppercase font-bold"
+          className="text-slate-400 hover:text-white transition-colors flex items-center gap-1 text-sm uppercase font-bold"
         >
           {copied ? <><Icons.Check /> Copied</> : <><Icons.Copy /> Copy</>}
         </button>
@@ -131,7 +131,7 @@ export const Table = ({ headers, rows }: TableProps) => (
       <thead className="bg-slate-50">
         <tr>
           {headers.map((h, i) => (
-            <th key={i} className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">{h}</th>
+            <th key={i} className="px-6 py-4 text-left text-sm font-bold text-slate-500 uppercase tracking-wider">{h}</th>
           ))}
         </tr>
       </thead>

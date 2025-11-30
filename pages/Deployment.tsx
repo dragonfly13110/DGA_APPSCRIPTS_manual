@@ -21,23 +21,23 @@ export const Deployment = () => (
       
       <div className="mt-4 bg-white border-2 border-blue-200 rounded-lg overflow-hidden max-w-lg shadow-md">
         <div className="p-4 border-b border-slate-100 grid grid-cols-3 items-center">
-          <span className="text-xs font-bold text-slate-500 uppercase">Description</span>
+          <span className="text-sm font-bold text-slate-500 uppercase">Description</span>
           <span className="col-span-2 text-sm text-slate-800">V1.0 (พิมพ์อะไรก็ได้)</span>
         </div>
         
         <div className="p-4 border-b border-slate-100 grid grid-cols-3 items-center bg-yellow-50">
-          <span className="text-xs font-bold text-slate-500 uppercase">Execute as</span>
+          <span className="text-sm font-bold text-slate-500 uppercase">Execute as</span>
           <div className="col-span-2">
             <span className="text-sm font-bold text-slate-900 block">Me (ชื่ออีเมลของคุณ)</span>
-            <span className="text-xs text-slate-500">*สำคัญมาก: ถ้าเลือกอันอื่น ระบบจะพังทันที</span>
+            <span className="text-sm text-slate-500">*สำคัญมาก: ถ้าเลือกอันอื่น ระบบจะพังทันที</span>
           </div>
         </div>
 
         <div className="p-4 grid grid-cols-3 items-center bg-green-50">
-          <span className="text-xs font-bold text-slate-500 uppercase">Who has access</span>
+          <span className="text-sm font-bold text-slate-500 uppercase">Who has access</span>
           <div className="col-span-2">
             <span className="text-sm font-bold text-slate-900 block">Anyone (ทุกคน)</span>
-            <span className="text-xs text-slate-500">*เพื่อให้เกษตรกรใช้ได้โดยไม่ต้อง Login Gmail</span>
+            <span className="text-sm text-slate-500">*เพื่อให้เกษตรกรใช้ได้โดยไม่ต้อง Login Gmail</span>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ export const Deployment = () => (
 
     <Step number="4" title="รับลิงก์ใช้งาน" isLast={true}>
       <p>เมื่อเสร็จสิ้น คุณจะได้ URL ยาวๆ ที่ลงท้ายด้วย <code>/exec</code></p>
-      <div className="bg-slate-800 text-white p-3 rounded font-mono text-xs md:text-sm mt-2 break-all shadow-inner">
+      <div className="bg-slate-800 text-white p-3 rounded font-mono text-sm md:text-sm mt-2 break-all shadow-inner">
         https://script.google.com/macros/s/AKfycbx.../exec
       </div>
       <p className="mt-4 text-green-700 font-bold flex items-center gap-2">

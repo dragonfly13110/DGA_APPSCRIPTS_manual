@@ -36,21 +36,21 @@ export const Installation = () => (
         {/* กลุ่มที่ 1: สีฟ้า Script */}
         <div className="border-l-4 border-blue-500 pl-4 bg-slate-50 p-4 rounded-r-lg">
           <h4 className="font-bold text-blue-700 flex items-center gap-2 mb-3">
-            <span className="bg-blue-100 px-2 py-0.5 rounded text-xs">TYPE 1</span> สร้างแบบ Script (สัญลักษณ์สามเหลี่ยมสีฟ้า)
+            <span className="bg-blue-100 px-2 py-0.5 rounded text-sm">TYPE 1</span> สร้างแบบ Script (สัญลักษณ์สามเหลี่ยมสีฟ้า)
           </h4>
           
           <div className="space-y-2">
             <div className="flex justify-between items-center bg-white p-2 border rounded">
               <span className="font-mono font-bold text-slate-700 ml-2">1. Code</span>
-              <span className="text-xs text-slate-400">ระบบจะเติม .gs ให้เอง</span>
+              <span className="text-sm text-slate-400">ระบบจะเติม .gs ให้เอง</span>
             </div>
             <div className="flex justify-between items-center bg-white p-2 border rounded">
               <span className="font-mono font-bold text-slate-700 ml-2">2. AI_Analysis</span>
-              <span className="text-xs text-slate-400">ระบบจะเติม .gs ให้เอง</span>
+              <span className="text-sm text-slate-400">ระบบจะเติม .gs ให้เอง</span>
             </div>
             <div className="flex justify-between items-center bg-white p-2 border rounded">
               <span className="font-mono font-bold text-slate-700 ml-2">3. RateLimiter</span>
-              <span className="text-xs text-slate-400">ระบบจะเติม .gs ให้เอง</span>
+              <span className="text-sm text-slate-400">ระบบจะเติม .gs ให้เอง</span>
             </div>
           </div>
         </div>
@@ -58,17 +58,17 @@ export const Installation = () => (
         {/* กลุ่มที่ 2: สีส้ม HTML */}
         <div className="border-l-4 border-orange-500 pl-4 bg-slate-50 p-4 rounded-r-lg">
           <h4 className="font-bold text-orange-700 flex items-center gap-2 mb-3">
-            <span className="bg-orange-100 px-2 py-0.5 rounded text-xs">TYPE 2</span> สร้างแบบ HTML (สัญลักษณ์ &lt; &gt; สีส้ม)
+            <span className="bg-orange-100 px-2 py-0.5 rounded text-sm">TYPE 2</span> สร้างแบบ HTML (สัญลักษณ์ &lt; &gt; สีส้ม)
           </h4>
           
           <div className="space-y-2">
             <div className="flex justify-between items-center bg-white p-2 border rounded">
               <span className="font-mono font-bold text-slate-700 ml-2">4. Index</span>
-              <span className="text-xs text-slate-400">ระบบจะเติม .html ให้เอง</span>
+              <span className="text-sm text-slate-400">ระบบจะเติม .html ให้เอง</span>
             </div>
             <div className="flex justify-between items-center bg-white p-2 border rounded">
               <span className="font-mono font-bold text-slate-700 ml-2">5. AI_View</span>
-              <span className="text-xs text-slate-400">ระบบจะเติม .html ให้เอง</span>
+              <span className="text-sm text-slate-400">ระบบจะเติม .html ให้เอง</span>
             </div>
           </div>
         </div>
@@ -86,15 +86,15 @@ export const Installation = () => (
       
       <div className="bg-slate-50 p-4 rounded-lg border border-slate-200 mt-2 space-y-3">
         <div className="flex gap-3 items-start">
-          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5">1</div>
+          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm flex-shrink-0 mt-0.5">1</div>
           <p className="text-sm">คลิกที่ชื่อไฟล์ทางซ้าย (เริ่มจาก <code>Code.gs</code>)</p>
         </div>
         <div className="flex gap-3 items-start">
-          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5">2</div>
+          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm flex-shrink-0 mt-0.5">2</div>
           <p className="text-sm">ก๊อปปี้โค้ดที่เราแจกให้ ไปวางทับลงไป</p>
         </div>
         <div className="flex gap-3 items-start">
-          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5">3</div>
+          <div className="bg-slate-800 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm flex-shrink-0 mt-0.5">3</div>
           <p className="text-sm font-bold text-blue-600">กดปุ่ม Save (รูปแผ่นดิสก์) 💾 ด้านบนทันที</p>
         </div>
       </div>

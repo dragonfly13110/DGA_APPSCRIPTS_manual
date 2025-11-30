@@ -65,7 +65,7 @@ const App = () => {
       {/* Sidebar Navigation */}
       <aside className={`
         fixed inset-y-0 left-0 z-20 w-72 bg-white border-r border-slate-200 transform transition-transform duration-300 ease-in-out
-        md:translate-x-0 md:static md:block shadow-2xl md:shadow-none flex flex-col
+        md:translate-x-0 md:sticky md:top-6 md:self-start md:h-[calc(100vh-3rem)] md:overflow-y-auto md:block shadow-2xl md:shadow-none flex flex-col
         ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
       `}>
         {/* Sidebar Header */}
@@ -75,10 +75,10 @@ const App = () => {
             ระบบข้อมูลครบวงจร
           </h1>
           <div className="flex items-center gap-2 mt-2 pl-1">
-             <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
+             <span className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium bg-blue-100 text-blue-800">
                Manual V2.0
              </span>
-             <span className="text-xs text-slate-400 font-medium uppercase tracking-widest">Web • Sheet • Looker</span>
+             <span className="text-sm text-slate-400 font-medium uppercase tracking-widest">Web • Sheet • Looker</span>
           </div>
         </div>
         
@@ -109,7 +109,7 @@ const App = () => {
           ))}
           
           <div className="mt-8 px-4 pt-8 border-t border-slate-100">
-            <p className="text-xs text-slate-400 mb-4 font-bold uppercase tracking-wider">แหล่งข้อมูลอ้างอิง</p>
+            <p className="text-sm text-slate-400 mb-4 font-bold uppercase tracking-wider">แหล่งข้อมูลอ้างอิง</p>
             <div className="space-y-3">
               <a href="https://lookerstudio.google.com/" target="_blank" className="flex items-center gap-2 text-sm text-slate-500 hover:text-blue-600 transition-colors group">
                 <span className="w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-blue-500 transition-colors"></span>

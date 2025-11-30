@@ -21,25 +21,25 @@ export const Introduction = () => (
         <div className="grid md:grid-cols-2 gap-8">
           {/* Old Way */}
           <div className="bg-red-50 p-6 rounded-2xl border border-red-100 relative overflow-hidden">
-            <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-red-200 text-red-800 text-xs font-bold px-3 py-1 rounded-bl-lg z-10">BEFORE</div>
+            <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-red-200 text-red-800 text-sm font-bold px-3 py-1 rounded-bl-lg z-10">BEFORE</div>
             <h4 className="font-bold text-red-800 text-xl mb-4 flex items-center gap-2">
               <span className="text-3xl">📉</span> การทำงานรูปแบบเดิม
             </h4>
             <ul className="space-y-4 text-red-900 text-sm leading-relaxed">
               <li className="flex gap-3">
-                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">1</span>
+                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">1</span>
                 <span><strong>Manual Process:</strong> เจ้าหน้าที่ 11 อำเภอ ต้องรวบรวมข้อมูลใส่ Excel และส่งรายงานทุก 15 วัน ทำให้เกิดไฟล์กระจัดกระจายหลายชุด</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">2</span>
+                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">2</span>
                 <span><strong>Sync Issues:</strong> แต่ละอำเภอ/ตำบล รายงานไม่พร้อมกัน จังหวัดต้องเสียเวลารอให้ครบก่อนจึงจะสรุปงานได้</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">3</span>
+                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
                 <span><strong>Data Silo:</strong> การรายงานเป็นรูปแบบตารางและกระดาษ ทำให้ "ไม่เห็นความเชื่อมโยง" ระหว่างข้อมูล นำไปวิเคราะห์ต่อได้ยาก</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">4</span>
+                <span className="bg-red-200 text-red-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">4</span>
                 <span><strong>High Error Rate:</strong> การตรวจสอบความถูกต้องทำด้วยมือ (Manual Verification) เสี่ยงต่อความผิดพลาดของตัวเลข</span>
               </li>
             </ul>
@@ -47,25 +47,25 @@ export const Introduction = () => (
 
           {/* New Way */}
           <div className="bg-emerald-50 p-6 rounded-2xl border border-emerald-100 relative overflow-hidden">
-            <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-emerald-200 text-emerald-800 text-xs font-bold px-3 py-1 rounded-bl-lg z-10">AFTER</div>
+            <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-emerald-200 text-emerald-800 text-sm font-bold px-3 py-1 rounded-bl-lg z-10">AFTER</div>
             <h4 className="font-bold text-emerald-800 text-xl mb-4 flex items-center gap-2">
               <span className="text-3xl">🚀</span> การทำงานรูปแบบใหม่
             </h4>
             <ul className="space-y-4 text-emerald-900 text-sm leading-relaxed">
               <li className="flex gap-3">
-                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">1</span>
+                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">1</span>
                 <span><strong>Web Form:</strong> กรอกข้อมูลผ่านเว็บไซต์ รองรับทุกอุปกรณ์ ลดขั้นตอนซ้ำซ้อน กำหนดรอบรายงานชัดเจน (วันที่ 15 และ 25)</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">2</span>
+                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">2</span>
                 <span><strong>Centralized Cloud:</strong> เก็บข้อมูลรวมศูนย์ใน Google Sheets แบบ Real-time จังหวัดเห็นข้อมูลทันทีที่อำเภอกรอก</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">3</span>
+                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
                 <span><strong>Auto Validation:</strong> มีระบบตรวจสอบความถูกต้องอัตโนมัติก่อนบันทึก ช่วยลดความผิดพลาดตั้งแต่ต้นทาง</span>
               </li>
               <li className="flex gap-3">
-                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-xs">4</span>
+                <span className="bg-emerald-200 text-emerald-800 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 font-bold text-sm">4</span>
                 <span><strong>AI Dashboard:</strong> สรุปผลเป็น Visual Dashboard แสดงพื้นที่เพาะปลูก ผลผลิต ต้นทุน และความเสี่ยงได้ทันที</span>
               </li>
             </ul>
@@ -177,10 +177,10 @@ export const Introduction = () => (
                ส่งต่อ Source Code, Google Sheet Template, และ Looker Studio ให้จังหวัดอื่นๆ นำไปปรับใช้กับ "พืชเศรษฐกิจ" ของตนเองได้ทันที
              </p>
              <div className="flex gap-2 flex-wrap">
-               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-xs text-indigo-600">มันสำปะหลัง</span>
-               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-xs text-indigo-600">อ้อย</span>
-               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-xs text-indigo-600">ทุเรียน</span>
-               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-xs text-indigo-600">มังคุด</span>
+               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-sm text-indigo-600">มันสำปะหลัง</span>
+               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-sm text-indigo-600">อ้อย</span>
+               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-sm text-indigo-600">ทุเรียน</span>
+               <span className="px-2 py-1 bg-white border border-indigo-200 rounded text-sm text-indigo-600">มังคุด</span>
              </div>
           </div>
 

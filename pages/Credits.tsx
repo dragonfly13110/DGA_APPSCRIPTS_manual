@@ -36,7 +36,7 @@ export const Credits = () => (
           <h3 className="text-lg font-bold text-slate-800 mb-2">นางสาวสรัสรัตน์ จำเดิม</h3>
           <div className="h-0.5 w-10 bg-emerald-400 mb-3"></div>
           <p className="text-sm text-slate-600 font-medium">นักวิชาการส่งเสริมการเกษตร<br/>ชำนาญการ</p>
-          <p className="text-xs text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
+          <p className="text-sm text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
        </div>
 
        {/* Member 2 */}
@@ -47,7 +47,7 @@ export const Credits = () => (
           <h3 className="text-lg font-bold text-slate-800 mb-2">นายอภิสิทธิ์ ไชยชาติ</h3>
           <div className="h-0.5 w-10 bg-blue-400 mb-3"></div>
           <p className="text-sm text-slate-600 font-medium">นักวิชาการส่งเสริมการเกษตร<br/>ชำนาญการ</p>
-          <p className="text-xs text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
+          <p className="text-sm text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
        </div>
 
        {/* Member 3 */}
@@ -58,7 +58,7 @@ export const Credits = () => (
           <h3 className="text-lg font-bold text-slate-800 mb-2">นางสาวกิติยา รัศมี</h3>
           <div className="h-0.5 w-10 bg-emerald-400 mb-3"></div>
           <p className="text-sm text-slate-600 font-medium">นักวิชาการส่งเสริมการเกษตร<br/>ชำนาญการ</p>
-          <p className="text-xs text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
+          <p className="text-sm text-slate-400 mt-2">กรมส่งเสริมการเกษตร</p>
        </div>
 
     </div>
