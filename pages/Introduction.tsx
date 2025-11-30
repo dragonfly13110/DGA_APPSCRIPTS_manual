@@ -25,16 +25,7 @@ export const Introduction = () => (
         โดยเนื้อหาจะครอบคลุมตั้งแต่การติดตั้ง, การปรับแต่งโค้ด, ไปจนถึงการสร้าง Dashboard แสดงผล
       </p>
 
-      <div className="bg-amber-50 rounded-lg p-4 border border-amber-100 text-sm text-amber-900 space-y-2">
-        <p>
-          <strong>พัฒนาและเผยแพร่โดย:</strong> กรมส่งเสริมการเกษตร <br />
-          <span className="text-amber-700">เพื่อประโยชน์ต่อเกษตรกรและเจ้าหน้าที่ผู้ปฏิบัติงาน</span>
-        </p>
-        <div className="pt-2 border-t border-amber-200/50 mt-2">
-          <strong>ติดต่อสอบถามรายละเอียดได้ที่:</strong> <br />
-          Facebook: <a href="https://www.facebook.com/RebelliousKasetTambon" target="_blank" className="text-blue-600 hover:underline font-bold">เกษตรตำบล คนใช้แรงงาน</a>
-        </div>
-      </div>
+
     </div>
 
     <PageHeader
