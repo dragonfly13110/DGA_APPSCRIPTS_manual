@@ -47,14 +47,14 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50 font-sans text-slate-900">
-      
+
       {/* Mobile Header */}
       <header className="md:hidden bg-white border-b border-slate-200 p-4 flex justify-between items-center sticky top-0 z-30 shadow-sm">
         <div className="font-bold text-slate-800 flex items-center gap-2 text-lg">
-           <span className="text-blue-600"><Icons.Book /></span> คู่มือติดตั้งระบบ
+          <span className="text-blue-600"><Icons.Book /></span> คู่มือติดตั้งระบบ
         </div>
-        <button 
-          onClick={() => setIsSidebarOpen(!isSidebarOpen)} 
+        <button
+          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
           className="text-slate-600 p-2 hover:bg-slate-100 rounded-lg transition-colors"
           aria-label="Toggle Menu"
         >
@@ -71,17 +71,17 @@ const App = () => {
         {/* Sidebar Header */}
         <div className="p-6 border-b border-slate-100 hidden md:block">
           <h1 className="text-lg font-extrabold text-slate-800 tracking-tight flex items-center gap-2">
-            <span className="text-blue-600"><Icons.Database /></span> 
+            <span className="text-blue-600"><Icons.Database /></span>
             ระบบข้อมูลครบวงจร
           </h1>
           <div className="flex items-center gap-2 mt-2 pl-1">
-             <span className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium bg-blue-100 text-blue-800">
-               Manual V2.0
-             </span>
-             <span className="text-sm text-slate-400 font-medium uppercase tracking-widest">Web • Sheet • Looker</span>
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium bg-blue-100 text-blue-800">
+              Manual V2.0
+            </span>
+            <span className="text-sm text-slate-400 font-medium uppercase tracking-widest">Web • Sheet • Looker</span>
           </div>
         </div>
-        
+
         {/* Navigation Links */}
         <nav className="p-4 space-y-1 overflow-y-auto flex-1 custom-scrollbar">
           {SECTIONS.map(section => (
@@ -93,8 +93,8 @@ const App = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 group relative overflow-hidden text-left
-                ${activeTab === section.id 
-                  ? 'bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100' 
+                ${activeTab === section.id
+                  ? 'bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100'
                   : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}
               `}
             >
@@ -107,7 +107,7 @@ const App = () => {
               <span>{section.title}</span>
             </button>
           ))}
-          
+
           <div className="mt-8 px-4 pt-8 border-t border-slate-100">
             <p className="text-sm text-slate-400 mb-4 font-bold uppercase tracking-wider">แหล่งข้อมูลอ้างอิง</p>
             <div className="space-y-3">
@@ -126,17 +126,17 @@ const App = () => {
 
       {/* Main Content Area */}
       <main className="flex-1 w-full min-w-0 bg-slate-50/50">
-        <div className="max-w-5xl mx-auto p-4 md:p-10 lg:p-12">
-          
+        <div className="max-w-7xl mx-auto p-2 md:p-10 lg:p-12">
+
           {/* Content Card */}
-          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-12 min-h-[85vh] animate-fade-in">
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 md:p-12 min-h-[85vh] animate-fade-in">
             <ActiveComponent />
           </div>
-          
+
           {/* Footer */}
           <footer className="max-w-4xl mx-auto mt-12 text-center border-t border-slate-200/60 pt-8 pb-8">
             <p className="text-slate-400 text-sm">
-              © {new Date().getFullYear()} Integrated Data Collection System. <br className="md:hidden"/> Open Source for Government & Community.
+              © {new Date().getFullYear()} Integrated Data Collection System. <br className="md:hidden" /> Open Source for Government & Community.
             </p>
           </footer>
         </div>
@@ -144,7 +144,7 @@ const App = () => {
 
       {/* Mobile Overlay Backdrop */}
       {isSidebarOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-slate-900/40 z-10 md:hidden backdrop-blur-sm transition-opacity duration-300"
           onClick={() => setIsSidebarOpen(false)}
         />

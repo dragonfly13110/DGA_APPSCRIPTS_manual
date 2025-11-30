@@ -4,8 +4,8 @@ import { Icons, PageHeader, Step, Note } from '../components';
 
 export const ApiSetup = () => (
   <div>
-    <PageHeader 
-      title="4. ขอ API Key" 
+    <PageHeader
+      title="4. ขอ API Key"
       description="ระบบต้องการกุญแจ 2 ดอกเพื่อปลดล็อคพลัง AI และข้อมูลอากาศ (ฟรีในระดับเริ่มต้น)"
       icon={Icons.Key}
     />
@@ -34,7 +34,7 @@ export const ApiSetup = () => (
 
     <Step number="3" title="ฝัง Key ลงใน Apps Script (อย่างปลอดภัย)" isLast={true}>
       <p>เราจะไม่แปะ Key ลงในโค้ดตรงๆ เพราะไม่ปลอดภัย เราจะใช้ <strong>Script Properties</strong></p>
-      
+
       <div className="bg-slate-50 p-6 rounded-lg border border-slate-200 mt-4">
         <h4 className="font-bold text-slate-800 mb-4">วิธีตั้งค่า:</h4>
         <ol className="list-decimal ml-5 space-y-3 text-slate-700">
@@ -55,12 +55,32 @@ export const ApiSetup = () => (
             <span className="text-slate-400 text-sm">👉 ใส่ Key ที่ได้จากข้อ 2</span>
           </div>
         </div>
-        
+
         <div className="mt-4 pt-4 border-t border-slate-200">
           <button className="bg-slate-300 text-slate-500 cursor-not-allowed px-4 py-2 rounded font-bold text-sm pointer-events-none">กด Save script properties</button>
           <span className="ml-2 text-sm text-slate-500">(ปุ่มนี้อยู่ใน Apps Script นะครับ)</span>
         </div>
       </div>
     </Step>
+
+    <div className="mt-8 border-t border-slate-200 pt-6">
+      <h4 className="font-bold text-slate-800 mb-4 flex items-center gap-2">
+        <Icons.Bug /> ปัญหาที่พบบ่อยเกี่ยวกับ Key
+      </h4>
+      <div className="grid md:grid-cols-2 gap-4">
+        <div className="bg-red-50 p-4 rounded-lg border border-red-100">
+          <h5 className="font-bold text-red-800 text-sm mb-2">Error: API Key not valid</h5>
+          <p className="text-sm text-red-700">
+            ท่านอาจจะก๊อปปี้ Key มาไม่ครบ หรือเผลอไปลบตัวอักษรบางตัว ให้ลองไปกด Copy ใหม่จากเว็บต้นทาง
+          </p>
+        </div>
+        <div className="bg-amber-50 p-4 rounded-lg border border-amber-100">
+          <h5 className="font-bold text-amber-800 text-sm mb-2">Error: Quota Exceeded</h5>
+          <p className="text-sm text-amber-700">
+            โควต้าฟรีหมดแล้ว (Gemini ให้ฟรี 60 ครั้ง/นาที) ถ้าใช้เยอะกว่านี้ต้องผูกบัตรเครดิต (Pay-as-you-go)
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 );
